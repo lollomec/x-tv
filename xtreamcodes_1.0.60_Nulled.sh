@@ -27,7 +27,7 @@ sudo updatedb
 sudo apt-get update
 sudo apt-get install php7.0-dev php7.0-gd -y
 apt-get install php7.0-geoip php7.0-fpm mcrypt php7.0-mcrypt php7.0enmod mcrypt -y
-apt-get install apache2 apache2-mpm-prefork apache2-utils libapache2-mod-php7.0 libapr1 libaprutil1 libdbd-mysql-perl libdbi-perl libnet-daemon-perl libplrpc-perl libpq5 mysql-client-5.5 mysql-common mysql-server mysql-server-5.5 php5-common php5-mysql -y
+apt-get install apache2 apache2-mpm-prefork apache2-utils libapache2-mod-php7.0 libapr1 libaprutil1 libdbd-mysql-perl libdbi-perl libnet-daemon-perl libplrpc-perl libpq5 mysql-client-5.5 mysql-common mysql-server mysql-server-5.5 php7.0-common php7.0-mysql -y
 apt-get install phpmyadmin -y
 sudo php5enmod mcrypt
 service apache2 reload && service apache2 restart
